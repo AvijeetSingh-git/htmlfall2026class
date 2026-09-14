@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--head is not visible to the user-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Week 1: Learning HTML</title>
+        <meta name="descripton" content="This week are looking at the basic HTML structure">
+        <meta name="robots" content="nofollow, noindex">
+
+    </head>
+    <!--body is visible to the user-->
+    <body>
+        <header>
+            <h1>This is the main title</h1>
+            <nav>
+                <menu>
+                    <li>
+                        <a href="index.html">I am a Hyperlink... maybe</a>
+                    </li>
+                </menu>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>I am h2</h2>
+                <div>
+                    <h3>I am h3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa rerum cumque
+                       alias illo esse necessitatibus consequatur error nobis quos eius corrupti 
+                       excepturi porro facilis ducimus veritatis at, facere quaerat dolor!</p>
+                    <p class="class"></p>
+                    <!--class can be used for many different elements-->
+                    <p id="class"></p>
+                    <!--id are related to only one element-->
+                </div>
+            </section>
+
+            <section>
+                <form method="post" action="somefile.php">
+                    <!--notice the Layout of the 1st 2-->
+                    <input type="text" placeholder="some text" required>
+                    <input type="text" placeholder="some text" required>
+                    <br><!--this is really the only time to use a br-->
+                    <label>Password:</label>
+                    <input type="password" placeholder="Password">
+                    <br>
+                    <label>Email:</label>
+                    <input type="email" placeholder="Email">
+                    <button type="submit"
+                </form>
+            </section>
+
+        </main>
+
+        <aside>
+            <h3>I am a related product</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <a href="#">Read More</a>
+
+        </aside>
+    </body>
+
+</html>
