@@ -1,5 +1,8 @@
+/*adds 2 fonts, Saira and Montserrat. The former being for text and the later for titles and headings*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Saira:wght@400;500;600;700&family=Special+Elite&display=swap');
 
+/*makes the background not a pain to read.*/
 body {
     background-color: rgb(27, 27, 27);
     color: rgb(225, 225, 225);
@@ -8,32 +11,33 @@ body {
     min-height: 100vh;
 }
 
+/*makes the head title background a lil darker so it pops*/
 header {
     background-color: rgb(8, 8, 8);
     height: 100px;
 }
-
+/*color of the head title*/
 header h1 {
     color: rgb(165, 31, 31);
     font-size: 50px;
     margin: 10px;
 }
-
+/*settings for the sub title*/
 header p {
     font-size: 15px;
     font-weight: 600;
     margin: 10px;
 
 }
-
+/*for the iframe*/
 main>section {
     margin-top: 15px;
 }
-
+/*the actual lyrics part*/
 main>section+section {
     margin: 10px;
 }
-
+/*changes the color and settings of the Lyrics and Iframe title.*/
 main h2 {
     color: rgb(165, 31, 31);
     font-size: 40px;
@@ -42,28 +46,34 @@ main h2 {
     text-decoration: underline;
     text-underline-offset: 7px;
 }
-
+/*changes color and settings of the sub heading for the music*/
 main h3 {
     color: rgb(178, 46, 46);
     font-size: 25px;
 }
-
+/*baseline settings for the music text*/
 main p {
     font-family: 'Saira';
     font-size: 18px;
     font-weight: 500;
 }
+/*for the music text that is being spoken loudly*/
 .bold{
+    font-family: 'Saira';
     color:rgb(194, 66, 66);
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bolder;
 }
+/*for the music text that is spoken quietly or in background.*/
 .muted{
+    font-family: 'Saira';
+    letter-spacing: 10%;
     color:rgb(167, 167, 167);
     font-size: 17px;
     font-weight: 100;
     font-style: italic;
 }
+/*mainly makes the boring footer smaller*/
 footer{
     font-family: "Saira";
     font-size: 10px;
