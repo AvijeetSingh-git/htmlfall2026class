@@ -15,12 +15,13 @@ body{
   margin: 0;
   padding: 0;
 }
-
+/*poster image css*/
 header img {
     display: block;
     width: 100%;
     height: auto;
 }
+/*css for the production credits.*/
 main{
     display: flex;
     flex-direction: column;
@@ -30,7 +31,7 @@ main{
 }
 main > div > h1{
     font-family: 'Montserrat';
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     text-align: center;
     font-size: 60px;
@@ -41,12 +42,14 @@ main > div + div > h1{
     font-size: 70px;
     font-style: italic;
 }
+/*sets every p to Montserrat unless said otherwise*/
 p{
     font-family: 'Montserrat';
     font-weight: 400;
     color: white;
     text-align: center;
 }
+/*class css for the smaller words in the production credits*/
 .light{
     font-size: 11px;
     font-family: 'Montserrat';
@@ -54,23 +57,51 @@ p{
     color: white;
     text-align: center;
 }
-
+/*specifically for "is" in the heading of the poster*/
+.lightHead{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+/*same as .light but font size is relative*/
+.lightFoot{
+    font-size: 80%;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+/*css for the copyright, age rating*/
 footer{
+    margin: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+}
+/*copyright*/
+footer > div > p{
+    font-size: 13px;
+    font-weight: 500;
 }
 footer > div + div{
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-right: 3px;
     border: 2px solid white;
+
 }
+/*age rating*/
 footer > div + div > p{
-    font-size: 50px;
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    padding: 3px;
     border: 2px solid white;
 }
 footer > div + div > p + p{
-    font-size: 16px;
+    font-family: 'Montserrat';
+    font-size: 12px;
     border: none;
 }
