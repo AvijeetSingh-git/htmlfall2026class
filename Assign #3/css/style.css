@@ -1,8 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 * {
     margin: 0;
@@ -100,6 +97,7 @@ footer > div + div > p{
     padding: 3px;
     border: 2px solid white;
 }
+/*text for the age rating*/
 footer > div + div > p + p{
     font-family: 'Montserrat';
     font-size: 12px;
